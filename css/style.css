@@ -1,0 +1,103 @@
+body
+{
+	color: blue;
+	background-color:rgb(240,240,240)
+}
+
+nav
+{
+	float:left;
+	display:inline-block;
+	vertical-align:top;
+	padding:12px;
+	height:100%;
+	border:1px solid black;
+}
+
+section
+{
+	display:inline-block;
+	vertical-align:top;
+	padding:12px;
+	margin-left:12px;
+	margin-right:12px;
+	margin-top:12px;
+	margin-bottom:12px;
+	opacity: 1;
+	border:1px solid black;
+	text-align:left
+}
+article
+{
+	display:inline-block;
+	vertical-align:top;
+	width:100%;
+	padding:12px;
+	margin-left:12px;
+	margin-right:12px;
+	margin-top:12px;
+	margin-bottom:12px;
+	opacity: 1;
+	border:1px solid black;
+	text-align:justify;
+}
+aside
+{
+	display:inline-block;
+	vertical-align:top;
+	padding:12px;
+	margin-left:12px;
+	margin-right:12px;
+	margin-top:12px;
+	margin-bottom:12px;
+	opacity: 1;
+	border:1px solid black;
+}
+
+table {
+	background-color:rgb(200,200,200);
+	border: medium solid rgb(150,150,150);
+	width: 100%;
+}
+th {
+	background-color:rgb(200,200,200);
+	border: thin solid rgb(150,150,150);
+	text-align:left;
+}
+td {
+	background-color:rgb(230,230,230);
+	border: thin solid rgb(150,150,150);
+	text-align:left;
+}
+
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+input[readonly], input[readonly="readonly"]
+{
+    background-color:rgb(230,230,230);
+}
+input , select
+{
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
+.erreur
+{
+	color:red;
+}
+
+.obligatoire
+{
+	color:red;
+}
+
+.imageflottante
+{
+	float:left;
+}

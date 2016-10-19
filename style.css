@@ -1,0 +1,91 @@
+body
+{
+	background-color:rgb(105,159,175)
+}
+p
+{
+	
+}
+nav
+{
+	display:inline-block;
+	vertical-align:top;
+	padding:12px;
+	width:200;
+	border:1px solid black;
+}
+section
+{
+	display:inline-block;
+	vertical-align:top;
+	padding:12px;
+	margin-left:12px;
+	margin-right:12px;
+	margin-top:12px;
+	margin-bottom:12px;
+	color: black;
+	opacity: 1;
+	border:1px solid black;
+	text-align:justify;
+}
+article
+{
+	display:inline-block;
+	vertical-align:top;
+	width:50%;
+	padding:12px;
+	margin-left:12px;
+	margin-right:12px;
+	margin-top:12px;
+	margin-bottom:12px;
+	color: black;
+	opacity: 1;
+	border:1px solid black;
+	text-align:justify;
+}
+aside
+{
+	display:inline-block;
+	vertical-align:top;
+	padding:12px;
+	margin-left:12px;
+	margin-right:12px;
+	margin-top:12px;
+	margin-bottom:12px;
+	color: black;
+	opacity: 1;
+	border:1px solid black;
+}
+
+table {
+border: medium solid #000000;
+width: 100%;
+}
+td, th {
+border: thin solid #000000;
+text-align:left;
+width: 10%;
+}
+
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+input[readonly], input[readonly="readonly"]
+{
+    background-color:rgb(230,230,230);
+}
+
+.erreur
+{
+	color:red;
+}
+
+
+.imageflottante
+{
+	float:left;
+}
